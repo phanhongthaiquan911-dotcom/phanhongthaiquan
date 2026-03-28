@@ -1,0 +1,131 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+
+.khung {
+    width: 1000px;
+    margin: auto;
+    background: white;
+}
+
+.topheader {
+    background: #dddddd;
+    height: 40px;
+}
+
+.topright {
+    float: right;
+    padding: 10px;
+}
+
+.topright a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.menu {
+    background: #99cc66;
+    height: 45px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    height: 120px;
+    margin-top: 10px;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 120px;
+    background: #ff9999;
+    text-align: center;
+    line-height: 120px;
+}
+
+.banner {
+    float: right;
+    width: 790px;
+    height: 120px;
+    background: #ffcc99;
+    text-align: center;
+    line-height: 120px;
+}
+
+.main {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    float: left;
+    width: 220px;
+    min-height: 400px;
+    background: #99ccff;
+    padding: 10px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    float: right;
+    width: 740px;
+    min-height: 400px;
+    background: #eeeeee;
+    padding: 10px;
+}
+
+.item {
+    width: 340px;
+    float: left;
+    margin: 10px;
+    background: white;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.hinh {
+    height: 100px;
+    background: #ccccff;
+    text-align: center;
+    line-height: 100px;
+}
+
+.item h4 {
+    margin: 10px 0 5px 0;
+}
+
+.footer {
+    clear: both;
+    background: #cc99ff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
